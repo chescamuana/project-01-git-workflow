@@ -1,5 +1,9 @@
+SERVICE_VERSION = "1.0.0"
+
+
 def show_status():
     print("Automation Service")
+    print(f"Version: {SERVICE_VERSION}")
     print("Status: Running")
 
 
